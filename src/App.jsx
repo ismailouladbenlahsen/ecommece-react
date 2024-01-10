@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Cart from "./components/Cart/Cart";
 import ProductInfo from "./pages/Products/Product-info";
+import SignIn from "./components/auth/SignIn";
+import SignUp from "./components/auth/SignUp";
 const Layout = () => {
   return (
     <div className="App">
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/product/:id/info",
         element: <ProductInfo />,
+      },
+      {
+        path: "/signIn",
+        element: <SignIn />,
+      },
+      {
+        path: "/signUp",
+        element: <SignUp />,
       },
     ],
   },

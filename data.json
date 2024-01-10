@@ -29,8 +29,8 @@
     {
       "id": 1,
       "username": "john_doe",
-      "email": "john.doe@example.com",
-      "password": "hashed_password",
+      "email": "ismail@gmail.com",
+      "password": "123",
       "address": "123 Main St, Cityville"
     },
     {
@@ -39,6 +39,22 @@
       "email": "jane.smith@example.com",
       "password": "hashed_password",
       "address": "456 Oak St, Townsville"
+    },
+    {
+      "0": {
+        "name": "",
+        "lastName": "",
+        "phone": "",
+        "email": "",
+        "password": "",
+        "checkbox": false
+      },
+      "name": "ISMAIL",
+      "lastName": "OULAD BEN LAHSEN",
+      "phone": "0600398948",
+      "email": "ismailouladbenlahsen@gmail.com",
+      "password": "123",
+      "id": 3
     }
   ],
   "carts": [
